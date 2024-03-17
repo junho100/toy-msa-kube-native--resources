@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: catalog-service
-          image: bemodesty306/spring-catalog:latest
+          image: bemodesty306/spring-catalog:9b84e6d88251174711e72875fafb964a962b5a56
           imagePullPolicy: Always
           ports:
             - containerPort: 9091
