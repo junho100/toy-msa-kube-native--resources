@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: bemodesty306/spring-order:latest
+          image: bemodesty306/spring-order:9b84e6d88251174711e72875fafb964a962b5a56
           imagePullPolicy: Always
           ports:
             - containerPort: 9090
