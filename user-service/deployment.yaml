@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: bemodesty306/spring-user:8ddf79725db550b88ec13aa161ddf80f5c71f04c
+          image: bemodesty306/spring-user:f7ba96c4ac8a05244ea2bfd3a5dc808ba4ff0252
           imagePullPolicy: Always
           ports:
             - containerPort: 9090
