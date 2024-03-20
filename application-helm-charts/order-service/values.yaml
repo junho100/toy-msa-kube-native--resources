@@ -1,0 +1,11 @@
+env: dev
+name: order-service-new
+
+replicaset:
+  replicas: 1
+
+image:
+  owner: bemodesty306
+  repository: spring-order
+  tag: latest
+  port: 9092

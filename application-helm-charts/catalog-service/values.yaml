@@ -1,0 +1,11 @@
+env: dev
+name: catalog-service-new
+
+replicaset:
+  replicas: 1
+
+image:
+  owner: bemodesty306
+  repository: spring-catalog
+  tag: latest
+  port: 9091
